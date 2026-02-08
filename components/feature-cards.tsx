@@ -35,7 +35,7 @@ export function FeatureCards() {
                   <div className="w-32 h-0.5 bg-[#322d2b]"></div>
                 </div>
               )}
-              <h3 className="text-[#49423d] text-sm font-semibold leading-6">{feature.title}</h3>
+              <h3 className="text-[#242429] text-sm font-semibold leading-6">{feature.title}</h3>
               <p className="text-[#605a57] text-sm leading-[22px] whitespace-pre-line">{feature.description}</p>
             </div>
           ))}

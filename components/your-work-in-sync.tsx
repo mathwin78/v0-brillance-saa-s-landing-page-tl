@@ -27,10 +27,10 @@ const YourWorkInSync: React.FC<YourWorkInSyncProps> = ({
     theme === "light"
       ? {
           "--yws-surface": "#ffffff",
-          "--yws-text-primary": "#37322f",
+          "--yws-text-primary": "#242429",
           "--yws-text-secondary": "#6b7280",
           "--yws-bubble-light": "#e8e5e3",
-          "--yws-bubble-dark": "#37322f",
+          "--yws-bubble-dark": "#242429",
           "--yws-bubble-white": "#ffffff",
           "--yws-border": "rgba(0,0,0,0.08)",
           "--yws-shadow": "rgba(0,0,0,0.08)",
@@ -126,7 +126,7 @@ const YourWorkInSync: React.FC<YourWorkInSyncProps> = ({
                   fontSize: "13px",
                   lineHeight: "16px",
                   letterSpacing: "-0.4px",
-                  color: theme === "light" ? "#37322f" : "var(--yws-text-primary)",
+                  color: theme === "light" ? "#242429" : "var(--yws-text-primary)",
                   whiteSpace: "nowrap",
                 }}
               >
@@ -150,7 +150,7 @@ const YourWorkInSync: React.FC<YourWorkInSyncProps> = ({
             {/* Message bubble */}
             <div
               style={{
-                background: theme === "light" ? "#37322f" : "var(--yws-bubble-dark)",
+                background: theme === "light" ? "#242429" : "var(--yws-bubble-dark)",
                 borderRadius: "999px",
                 padding: "0px 12px",
                 height: "36px",
@@ -233,7 +233,7 @@ const YourWorkInSync: React.FC<YourWorkInSyncProps> = ({
                   fontSize: "13px",
                   lineHeight: "16px",
                   letterSpacing: "-0.4px",
-                  color: theme === "light" ? "#37322f" : "var(--yws-text-primary)",
+                  color: theme === "light" ? "#242429" : "var(--yws-text-primary)",
                   whiteSpace: "nowrap",
                 }}
               >
@@ -287,7 +287,7 @@ const YourWorkInSync: React.FC<YourWorkInSyncProps> = ({
                 width: "36px",
                 height: "36px",
                 borderRadius: "44px",
-                background: theme === "light" ? "#37322f" : "var(--yws-bubble-dark)",
+                background: theme === "light" ? "#242429" : "var(--yws-bubble-dark)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
